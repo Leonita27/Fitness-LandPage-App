@@ -1,0 +1,5 @@
+.landingpage{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}

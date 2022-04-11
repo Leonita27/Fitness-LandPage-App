@@ -1,0 +1,9 @@
+.FirstSection{
+    width:'100%';
+    height: 750px;
+    border: 1px solid black;
+    background-color: burlywood;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
