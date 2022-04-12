@@ -1,9 +1,13 @@
+@import "../../../theme/Fonts.scss";
+@import "../../../theme/Colors.scss";
+
 .FirstSection{
     width:'100%';
     height: 750px;
     border: 1px solid black;
-    background-color: burlywood;
+    background-color: $yellow1;
     align-items: center;
     display: flex;
     justify-content: center;
+    font-family: 'Poppins Italic';
 }

@@ -1,3 +1,4 @@
+@import "../../../theme/Fonts.scss";
 .SecondSection{
     width:'100%';
     height: 750px;
@@ -6,4 +7,5 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    font-family: 'Poppins';
 }

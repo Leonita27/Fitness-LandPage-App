@@ -1,7 +1,6 @@
 import FirstSection from './FirstSection/FirstSection';
-import FirstSectionStyle from './FirstSection/FirstSectionStyle.css';
 import SecondSection from './SecondSection/SecondSection';
-import './LandingPageStyle.css';
+import './LandingPageStyle.scss';
 import ThirdSection from './ThirdSection/ThirdSection';
 
 const LandingPage =()=> {

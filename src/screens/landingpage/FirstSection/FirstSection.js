@@ -1,4 +1,4 @@
-import './FirstSectionStyle.css';
+import './FirstSectionStyle.scss';
 
 const FirstSection =()=> {
   return (

@@ -1,4 +1,4 @@
-import './ThirdSectionStyle.css';
+import './ThirdSectionStyle.scss';
 
 const ThirdSection =()=> {
   return (

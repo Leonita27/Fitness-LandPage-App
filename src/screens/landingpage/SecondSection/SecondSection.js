@@ -1,4 +1,4 @@
-import './SecondSectionStyle.css';
+import './SecondSectionStyle.scss';
 
 const SecondSection =()=> {
   return (

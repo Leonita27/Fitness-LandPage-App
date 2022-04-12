@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import LandingPage from './screens/landingpage/LandingPage.js';
 
 function App() {
@@ -11,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
