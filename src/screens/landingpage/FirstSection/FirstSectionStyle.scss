@@ -2,12 +2,45 @@
 @import "../../../theme/Colors.scss";
 
 .FirstSection{
-    width:'100%';
+    width:100%;
     height: 750px;
-    border: $black;
-    background-color: $yellow1;
-    align-items: center;
+}
+.fullText {
+ position: absolute;
+ width: 800px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+.slidePhoto{
     display: flex;
     justify-content: center;
-    font-family: 'Poppins Italic';
+    align-items: center;
+}
+.textSlide{
+    position: absolute;
+    color:$white;
+    font-size: 45px;
+    font-family: 'Poppins Medium';
+    align-self: center;
+    text-align: center;
+}
+.startText{
+    position: absolute;
+    color:$white;
+    border-top:2px solid rgb(255, 255, 255);
+    border-bottom:2px solid rgb(255, 255, 255);
+    padding: 20px;
+    font-family: 'Poppins MediumItalic';
+}
+
+.buttonStyle{
+    padding:80px;
+    margin-top: 40px;
+}
+
+.imageStyle{
+    width:'100%';
+    height: 750px;
 }
