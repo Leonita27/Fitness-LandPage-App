@@ -1,3 +1,4 @@
+import React from 'react';
 import './ThirdSectionStyle.scss';
 
 const ThirdSection =()=> {

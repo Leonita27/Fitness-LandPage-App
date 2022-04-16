@@ -1,3 +1,4 @@
+import React from 'react';
 import './SecondSectionStyle.scss';
 
 const SecondSection =()=> {
