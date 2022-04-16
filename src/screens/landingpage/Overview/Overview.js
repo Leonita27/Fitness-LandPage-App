@@ -1,12 +1,12 @@
 import React from "react"
-import "./FirstSectionStyle.scss"
+import "./OverviewStyle.scss"
 import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io"
 import Carousel from "nuka-carousel"
 import firstPhoto from "../../../assets/images/landpage/firstPhoto.png"
 import secondPhoto from "../../../assets/images/landpage/secondPhoto.jpeg"
 import thirdPhoto from "../../../assets/images/landpage/thirdPhoto.jpeg"
 
-const FirstSection = () => {
+const Overview = () => {
   return (
     <div className="FirstSection">
       <Carousel
@@ -61,4 +61,4 @@ const FirstSection = () => {
   )
 }
 
-export default FirstSection
+export default Overview

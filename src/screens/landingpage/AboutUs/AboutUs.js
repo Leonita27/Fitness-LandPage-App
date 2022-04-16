@@ -1,7 +1,7 @@
 import React from "react"
-import "./SecondSectionStyle.scss"
+import "./AboutUsStyle.scss"
 
-const SecondSection = () => {
+const AboutUs = () => {
   return (
     <div className="SecondSection">
       <h1>SecondSection Page</h1>
@@ -9,4 +9,4 @@ const SecondSection = () => {
   )
 }
 
-export default SecondSection
+export default AboutUs
