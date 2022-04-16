@@ -1,13 +1,12 @@
-import React from 'react';
-import './SecondSectionStyle.scss';
+import React from "react"
+import "./SecondSectionStyle.scss"
 
-const SecondSection =()=> {
+const SecondSection = () => {
   return (
     <div className="SecondSection">
-     
-     <h1>SecondSection Page</h1>
+      <h1>SecondSection Page</h1>
     </div>
-  );
+  )
 }
 
-export default SecondSection;
+export default SecondSection
