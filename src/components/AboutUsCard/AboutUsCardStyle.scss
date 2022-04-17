@@ -1,0 +1,40 @@
+@import "../../theme/Fonts.scss";
+@import "../../theme/Colors.scss";
+
+
+.container{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px -6px 18px -3px rgba(100,100,100,0.77);
+}
+
+.circleBox{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    box-shadow: 5px -6px 18px -3px rgba(100,100,100,0.77);
+}
+.subTitle{
+    font-size: 16px;
+    font-family: 'Poppins Light';
+    color: $yellow2;
+    line-height:2
+}
+.title{
+    font-size: 22px;
+    font-family: 'Poppins Medium';
+    color: $black;
+    line-height:0 
+}
+
+.description{
+    font-size: 13px;
+    font-family: 'Poppins Light';
+    color: $grey2;
+    width: 300px;
+    text-align: center;
+}
