@@ -26,14 +26,14 @@ const Overview = () => {
         )}
       >
         <div className="slidePhoto">
-          <img src={firstPhoto} className="imageStyle" width={"100%"} />
+          <img src={firstPhoto} className="imageStyle" width={"100%"} alt="" />
         </div>
         <div className="slidePhoto">
           <div className="fullText">
             <h1 className="startText">START TODAY</h1>
             <h1 className="textSlide">FIGHT FOR THE BODY YOU DESERVE</h1>
           </div>
-          <img src={firstPhoto} className="imageStyle" width={"100%"} />
+          <img src={firstPhoto} className="imageStyle" width={"100%"} alt="" />
         </div>
         <div className="slidePhoto">
           <div className="fullText">
@@ -42,10 +42,10 @@ const Overview = () => {
               IF IT DOESNT CHALLENGE YOU, IT DOESNT CHANGE YOU
             </h1>
           </div>
-          <img src={secondPhoto} className="imageStyle" width={"100%"} />
+          <img src={secondPhoto} className="imageStyle" width={"100%"} alt="" />
         </div>
         <div className="slidePhoto">
-          <img src={thirdPhoto} className="imageStyle" width={"100%"} />
+          <img src={thirdPhoto} className="imageStyle" width={"100%"} alt="" />
         </div>
         <div className="slidePhoto">
           <div className="fullText">
@@ -54,7 +54,7 @@ const Overview = () => {
               FIT IS NOT A DESTINATION, ITS A WAY OF LIFE
             </h1>
           </div>
-          <img src={thirdPhoto} className="imageStyle" width={"100%"} />
+          <img src={thirdPhoto} className="imageStyle" width={"100%"} alt="" />
         </div>
       </Carousel>
     </div>
