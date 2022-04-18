@@ -2,18 +2,20 @@ import React from "react"
 import AboutUsCard from "../../../components/AboutUsCard"
 import "./AboutUsStyle.scss"
 import AboutUsDetail from "../../../assets/images/landpage/AboutUsDetails.png"
+import { useTranslation } from "react-i18next"
 
 const AboutUs = () => {
+  const { t } = useTranslation()
   return (
     <div className="AboutUsContainer">
       <div className="AboutUsText">
-        <p className="titleText">ABOUT US</p>
-        <h1 className="subtitleText">Who Help You</h1>
-        <h1 className="boldSubtitleText"> To Be Fit</h1>
+        <p className="titleText">{t("LandingPage.AboutUs.title")}</p>
+        <h1 className="subtitleText">{t("LandingPage.AboutUs.subTitle")}</h1>
+        <h1 className="boldSubtitleText">
+          {t("LandingPage.AboutUs.subTitleDetails")}
+        </h1>
         <p className="descriptionText">
-          We are a passion driven fitness chain, offering trendy
-          products,diets,exercises and friendly environment because we believe
-          to make people move every detail matters.
+          {t("LandingPage.AboutUs.description")}
         </p>
       </div>
 

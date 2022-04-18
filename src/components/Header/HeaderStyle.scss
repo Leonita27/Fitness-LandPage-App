@@ -63,9 +63,12 @@
 }
 
 .languageText{
-    font-size: 12px;
+    font-size: 14px;
     color: $white;
     font-family: 'Poppins Semibold';
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
 }
 .iconBox{
     width: 40px;

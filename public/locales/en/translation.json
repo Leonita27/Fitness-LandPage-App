@@ -1,0 +1,36 @@
+{
+  "LandingPage":{
+    "Header":{
+       "AboutUs":"About us",
+       "OurClasses":"Our Classes",
+       "Gallery":"Gallery",
+       "Trainers":"Trainers",
+       "Team":"Team"
+    },
+    "Overview":{
+      "FirstSlide":{
+        "title":"Start Now",
+        "description":"Fight for the body you deserve"
+      },
+      "SecondSlide":{
+        "title":"BE A FIT STAR",
+        "description":"IF IT DOESN'T CHALLENGE YOU, IT DOESN'T CHANGE YOU"
+      },
+      "ThirdSlide":{
+        "title":"BREAK YOUR LIMITS",
+        "description":"FIT IS NOT A DESTINATION, IT'S A WAY OF LIFE"
+      }
+    },
+    "AboutUs":{
+      "title":"ABOUT US",
+      "subTitle":"Who Help You",
+      "subTitleDetails":"To Be Fit",
+      "description":"We are a passion driven fitness chain, offering trendy products,diets,exercises and friendly environment because we believe to make people move every detail matters.."
+  
+    
+  }
+},
+  "Why":{
+      "1":"For hhha shsh "
+  }
+}

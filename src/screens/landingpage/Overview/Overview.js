@@ -5,8 +5,10 @@ import Carousel from "nuka-carousel"
 import firstPhoto from "../../../assets/images/landpage/firstPhoto.png"
 import secondPhoto from "../../../assets/images/landpage/secondPhoto.jpeg"
 import thirdPhoto from "../../../assets/images/landpage/thirdPhoto.jpeg"
+import { useTranslation } from "react-i18next"
 
 const Overview = () => {
+  const { t } = useTranslation()
   return (
     <div className="FirstSection">
       <Carousel
@@ -30,16 +32,22 @@ const Overview = () => {
         </div>
         <div className="slidePhoto">
           <div className="fullText">
-            <h1 className="startText">START TODAY</h1>
-            <h1 className="textSlide">FIGHT FOR THE BODY YOU DESERVE</h1>
+            <h1 className="startText">
+              {t("LandingPage.Overview.FirstSlide.title")}
+            </h1>
+            <h1 className="textSlide">
+              {t("LandingPage.Overview.FirstSlide.description")}
+            </h1>
           </div>
           <img src={firstPhoto} className="imageStyle" width={"100%"} alt="" />
         </div>
         <div className="slidePhoto">
           <div className="fullText">
-            <h1 className="startText">BE A FIT STAR</h1>
+            <h1 className="startText">
+              {t("LandingPage.Overview.SecondSlide.title")}
+            </h1>
             <h1 className="textSlide">
-              IF IT DOESNT CHALLENGE YOU, IT DOESNT CHANGE YOU
+              {t("LandingPage.Overview.SecondSlide.description")}
             </h1>
           </div>
           <img src={secondPhoto} className="imageStyle" width={"100%"} alt="" />
@@ -49,9 +57,11 @@ const Overview = () => {
         </div>
         <div className="slidePhoto">
           <div className="fullText">
-            <h1 className="startText">BREAK YOUR LIMITS</h1>
+            <h1 className="startText">
+              {t("LandingPage.Overview.ThirdSlide.title")}
+            </h1>
             <h1 className="textSlide">
-              FIT IS NOT A DESTINATION, ITS A WAY OF LIFE
+              {t("LandingPage.Overview.ThirdSlide.description")}
             </h1>
           </div>
           <img src={thirdPhoto} className="imageStyle" width={"100%"} alt="" />
