@@ -52,7 +52,7 @@ const Header = ({ headerVisible }) => {
                 EN
               </button>
             )}
-            {i18n.language === "en" && (
+            {["en", "en-US"].indexOf(i18n.language) >= 0 && (
               <button
                 onClick={() => handleClick("al")}
                 className="languageText"
