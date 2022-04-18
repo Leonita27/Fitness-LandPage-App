@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import AboutUs from "./AboutUs/AboutUs"
 import "./LandingPageStyle.scss"
-import ThirdSection from "./ThirdSection/ThirdSection"
+import OurClasses from "./OurClasses/OurClasses"
 import Header from "../../components/Header"
 import Overview from "./Overview/Overview"
 
@@ -29,7 +29,7 @@ const LandingPage = () => {
       <Header headerVisible={headerVisible} />
       <Overview />
       <AboutUs />
-      <ThirdSection />
+      <OurClasses />
     </div>
   )
 }
