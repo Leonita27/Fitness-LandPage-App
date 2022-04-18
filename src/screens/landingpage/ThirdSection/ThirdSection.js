@@ -1,13 +1,12 @@
-import React from 'react';
-import './ThirdSectionStyle.scss';
+import React from "react"
+import "./ThirdSectionStyle.scss"
 
-const ThirdSection =()=> {
+const ThirdSection = () => {
   return (
     <div className="ThirdSection">
-     
-     <h1>ThirdSection Page</h1>
+      <h1>ThirdSection Page</h1>
     </div>
-  );
+  )
 }
 
-export default ThirdSection;
+export default ThirdSection
