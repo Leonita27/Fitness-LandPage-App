@@ -1,0 +1,34 @@
+{
+  "LandingPage":{
+    "Header":{
+       "AboutUs":"Rreth Nesh",
+       "OurClasses":"Klasat Tona",
+       "Gallery":"Galeria",
+       "Trainers":"Trajneret",
+       "Team":"Ekipi"
+    },
+    "Overview":{
+      "FirstSlide":{
+        "title":"Fillo Tani",
+        "description":"Lufto per trupin që e meriton!"
+      },
+      "SecondSlide":{
+        "title":"KURRË S'ËSHTË VONË",
+        "description":"MOS I ZHGËNJE PRITSHMËRITË TUA"
+      },
+      "ThirdSlide":{
+        "title":"PËRQËNDROHU",
+        "description":"NJË TRUP E KE N’KËTË JETË"
+      }
+  },
+  "AboutUs":{
+    "title":"RRETH NESH",
+    "subTitle":"Kush Ju Ndihmon",
+    "subTitleDetails":"Që Të Jeni Në Formë",
+    "description":"Ne jemi një zinxhir fitnesi i drejtuar nga pasioni, duke ofruar produkte në modë, dieta, ushtrime dhe mjedis miqësor, sepse besojmë se do t'i bëjmë njerëzit të lëvizin çdo detaj."
+     
+}
+
+
+}
+}

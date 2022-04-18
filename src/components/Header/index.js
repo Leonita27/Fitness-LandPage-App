@@ -1,13 +1,15 @@
 import React from "react"
-import PropTypes from "prop-types"
 import "./HeaderStyle.scss"
 import { FaFacebookF } from "react-icons/fa"
 import { AiOutlineTwitter } from "react-icons/ai"
+import { useTranslation } from "react-i18next"
 
 const Header = ({ headerVisible }) => {
-  Header.propTypes = {
-    headerVisible: PropTypes.bool,
+  const { t, i18n } = useTranslation()
+  const handleClick = (lang) => {
+    i18n.changeLanguage(lang)
   }
+
   return (
     <div className={headerVisible ? "headerContainer" : "secHeaderContainer"}>
       <div className="middleContainer">
@@ -18,19 +20,19 @@ const Header = ({ headerVisible }) => {
         <div className="navBar">
           <ul>
             <li>
-              <a href="/about">ABOUT US</a>
+              <a href="/about">{t("LandingPage.Header.AboutUs")}</a>
             </li>
             <li>
-              <a href="/classes">OUR CLASSES</a>
+              <a href="/classes">{t("LandingPage.Header.OurClasses")}</a>
             </li>
             <li>
-              <a href="/gallery">GALLERY</a>
+              <a href="/gallery">{t("LandingPage.Header.Gallery")}</a>
             </li>
             <li>
-              <a href="/trainers">TRAINERS</a>
+              <a href="/trainers">{t("LandingPage.Header.Trainers")}</a>
             </li>
             <li>
-              <a href="/team">TEAM</a>
+              <a href="/team">{t("LandingPage.Header.Team")}</a>
             </li>
           </ul>
         </div>
@@ -42,7 +44,22 @@ const Header = ({ headerVisible }) => {
             <AiOutlineTwitter color="white" size={20} />
           </div>
           <div className="iconBox">
-            <h1 className="languageText">EN</h1>
+            {i18n.language === "al" && (
+              <button
+                onClick={() => handleClick("en")}
+                className="languageText"
+              >
+                EN
+              </button>
+            )}
+            {i18n.language === "en" && (
+              <button
+                onClick={() => handleClick("al")}
+                className="languageText"
+              >
+                AL
+              </button>
+            )}
           </div>
         </div>
       </div>
