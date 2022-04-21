@@ -28,6 +28,16 @@
       "description":"We are a passion driven fitness chain, offering trendy products,diets,exercises and friendly environment because we believe to make people move every detail matters.."
   
     
+  },
+  "OurClasses":{
+    "title": "Our Classes",
+    "subTitle": "Fitness Classes are a great way to get started, make progress on your goals or change up your routine. Our certified instructors make sure you get motivated, learn proper form and have fun.",
+    "firstSubtitle": "Weight Gain",
+    "secondSubtitle": "Weight Loss",
+    "thirdSubtitle": "Muscle Dfn",
+    "firstDescription":"Weight gain can be caused by different things, among them muscle gain. Certain exercises that focus on building muscle will help you gain weight. ",
+    "secondDescription": "Losing weight is not easy, and it takes commitment. But if you’re ready to get started, we’ve got a step-by-step guide to help get you on the road to weight loss and better health.",
+    "thirdDescription": "If your goal is more-defined muscles, what will get you there is being smart about your goals, doing the right types of workouts, eating right, and getting the rest your body needs."
   }
 },
   "Why":{
