@@ -7,7 +7,7 @@ const TrainersCard = ({ subTitle, title, description, icon }) => {
         <h1 className="firsttitle">{title}</h1>
         <p className="firstsubTitle">{subTitle}</p>
       </div>
-      <img className="firstcircleBox" src={icon}></img>
+      <img className="firstcircleBox" src={icon} alt=""></img>
       <div className="bottomContainer">
         <p className="firstdescription">{description}</p>
       </div>
