@@ -42,7 +42,16 @@
     "subTitle":"Të Certifikuarit Tanë ", 
     "secsubTitle":"Trajnerë ",
     "thirdsubTitle": "Për Ju",
-    "description":"Një trajner fitnesi krijon plane fitnesi dhe mirëqenieje për individë dhe grupe. Ata caktojnë rutinat e ushtrimeve bazuar në nevojat fizike të klientëve dhe monitorojnë përparimin e tyre."
+    "description":"Një trajner fitnesi krijon plane fitnesi dhe mirëqenieje për individë dhe grupe. Ata caktojnë rutinat e ushtrimeve bazuar në nevojat fizike të klientëve dhe monitorojnë përparimin e tyre.",
+    "firstName": "Micah Greer",
+    "firstSubtitle": "Trajner Personal",
+    "firstDescription": "Rrugëtimi im shëndetësor nisi në shkollën e mesme, përmes sportit dhe arsimit. Në sport, e gjeta veten duke kërkuar vazhdimisht të di pse kryheshin disa ushtrime dhe fiziologjikisht, pasojat e tyre.",
+    "secondName": "Fiona Mccann",
+    "secondSubtitle": "Trajner Personal",
+    "secondDescription": "Fillova me palestër rreth 11 vjet më parë, kur ndoqa klasën e parë të palestrës. Kisha qenë një urrejtëse e palestrës gjatë gjithë jetës sime, por gjeta FiveStar dhe një atmosferë e mrekullueshme më bëri të dashuroj stërvitjen!",
+    "thirdName": "John Wu",
+    "thirdSubtitle": "Trajner Personal",
+    "thirdDescription": "John është i certifikuar si në SHBA ashtu edhe në Kinë. Ai ka jetuar dhe punuar në Pekin, Kinë dhe SHBA për më shumë se një dekadë."
   }
 }
 }

@@ -1,10 +1,10 @@
 import React from "react"
 import "./TrainersStyle.scss"
 import TrainersCard from "../../../components/TrainersCard"
+import Carousel from "nuka-carousel"
 import Trainer1 from "../../../assets/images/landpage/Trainer1.jpg"
 import trainer2 from "../../../assets/images/landpage/trainer2.jpg"
 import trainer3 from "../../../assets/images/landpage/trainer3.jpg"
-
 import { useTranslation } from "react-i18next"
 
 const Trainers = () => {
@@ -25,30 +25,37 @@ const Trainers = () => {
       </div>
 
       <div className="secondTrainersContainer">
-        <TrainersCard
-          title={"Micah Greer"}
-          subTitle={"Personal Trainer"}
-          icon={Trainer1}
-          description={
-            "My health journey started in high school, through sports and education. In sports, I found myself constantly wanting to know why certain exercises were performed, and physiologically, the consequence of them. "
-          }
-        />
-        <TrainersCard
-          title={"Fiona Mccann"}
-          subTitle={"Personal Trainer"}
-          icon={trainer2}
-          description={
-            "I started in fitness about 11 years ago, when I attended my first gym class. I’d been a gym hater all my life but I found Kettlebells, TrX and a great atmosphere brought me to love exercise! "
-          }
-        />
-        <TrainersCard
-          title={"John Wu"}
-          subTitle={"Personal Trainer"}
-          icon={trainer3}
-          description={
-            "John is board certified in both the USA and China. He's lived and worked in both Beijing, China and the USA for over a decade."
-          }
-        />
+        <Carousel
+          wrapAround={true}
+          slidesToShow={3}
+          autoplay={true}
+          autoplayInterval={2000}
+          cellAlign={"center"}
+          adaptiveHeight={true}
+          animation={"zoom"}
+          renderCenterLeftControls={false}
+          renderCenterRightControls={false}
+          style={{ height: "440px", marginLeft: "60px" }}
+        >
+          <TrainersCard
+            title={t("LandingPage.Trainers.firstName")}
+            subTitle={t("LandingPage.Trainers.firstSubtitle")}
+            icon={Trainer1}
+            description={t("LandingPage.Trainers.firstDescription")}
+          />
+          <TrainersCard
+            title={t("LandingPage.Trainers.secondName")}
+            subTitle={t("LandingPage.Trainers.secondSubtitle")}
+            icon={trainer2}
+            description={t("LandingPage.Trainers.secondDescription")}
+          />
+          <TrainersCard
+            title={t("LandingPage.Trainers.thirdName")}
+            subTitle={t("LandingPage.Trainers.thirdSubtitle")}
+            icon={trainer3}
+            description={t("LandingPage.Trainers.thirdDescription")}
+          />
+        </Carousel>
       </div>
     </div>
   )

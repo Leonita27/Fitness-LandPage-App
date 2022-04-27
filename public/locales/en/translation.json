@@ -44,7 +44,16 @@
     "subTitle":"Our Certificated ", 
     "secsubTitle":"Trainers",
     "thirdsubTitle":"For You",
-    "description":"A Fitness Trainer creates tailored fitness and wellness plans for individuals and groups. They assign exercise routines based on clients' physical needs and monitor their progress."
+    "description":"A Fitness Trainer creates tailored fitness and wellness plans for individuals and groups. They assign exercise routines based on clients' physical needs and monitor their progress.",
+    "firstName": "Micah Greer",
+    "firstSubtitle": "Personal Trainer",
+    "firstDescription": "My health journey started in high school, through sports and education. In sports, I found myself constantly wanting to know why certain exercises were performed, and physiologically, the consequence of them.",
+    "secondName": "Fiona Mccann",
+    "secondSubtitle": "Personal Trainer",
+    "secondDescription": "I started in fitness about 11 years ago, when I attended my first gym class. I’d been a gym hater all my life but I found FiveStar and a great atmosphere brought me to love exercise!",
+    "thirdName": "John Wu",
+    "thirdSubtitle": "Personal Trainer",
+    "thirdDescription": "John is board certified in both the USA and China. He's lived and worked in both Beijing, China and the USA for over a decade."
   }
 },
   "Why":{
