@@ -38,6 +38,13 @@
     "firstDescription":"Weight gain can be caused by different things, among them muscle gain. Certain exercises that focus on building muscle will help you gain weight. ",
     "secondDescription": "Losing weight is not easy, and it takes commitment. But if you’re ready to get started, we’ve got a step-by-step guide to help get you on the road to weight loss and better health.",
     "thirdDescription": "If your goal is more-defined muscles, what will get you there is being smart about your goals, doing the right types of workouts, eating right, and getting the rest your body needs."
+  },
+  "Trainers":{
+    "title":"TEAM",
+    "subTitle":"Our Certificated ", 
+    "secsubTitle":"Trainers",
+    "thirdsubTitle":"For You",
+    "description":"A Fitness Trainer creates tailored fitness and wellness plans for individuals and groups. They assign exercise routines based on clients' physical needs and monitor their progress."
   }
 },
   "Why":{

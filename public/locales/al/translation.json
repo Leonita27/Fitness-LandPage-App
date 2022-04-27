@@ -27,15 +27,22 @@
     "subTitleDetails":"Që Të Jeni Në Formë",
     "description":"Ne jemi një zinxhir fitnesi i drejtuar nga pasioni, duke ofruar produkte në modë, dieta, ushtrime dhe mjedis miqësor, sepse besojmë se do t'i bëjmë njerëzit të lëvizin çdo detaj."
   },
-"OurClasses":{
-  "title": "Klasat tona",
-  "subTitle": "Klasat e Fitnesit janë mënyra më e mirë për të filluar diçka, për të bërë progres drejt qëllimeve tuaja ose për të ndryshuar rutinën tuaj. Trajnerët tanë të certifikuar sigurojnë që ju të ndjeheni të motivuar, të mësoni formën adekuate dhe të bëni qejf.",
-  "firstSubtitle": "Shto Peshe",
-  "secondSubtitle": "Humb Peshe",
-  "thirdSubtitle": "Def Muskulor",
-  "firstDescription":"Shtimi i peshës mund të shkaktohet nga gjëra të ndryshme, ndër to shtimi i muskujve. Ushtrime të caktuara që fokusohen në ndërtimin e muskujve do të ju ndihmojnë të fitoni peshë.",
-  "secondDescription": "Humbja e peshës nuk është e lehtë dhe kërkon angazhim. Por nëse ju jeni gati të filloni, ne kemi një program hap pas hapi, për të ju ndihmuar në rrugen drejt humbjes së peshës e shëndetit të mirë.",
-  "thirdDescription": "Nëse qëllimi juaj është në muskuj më të definuar, çfarë do të ju dërgojë atje është të qenurit vigjilent për qëllime tuaja, duke i bërë ushtrimet e duhura, ngrënë drejt e ofruar trupit ato që i nevojiten. "
-}
+  "OurClasses":{
+    "title": "Klasat tona",
+    "subTitle": "Klasat e Fitnesit janë mënyra më e mirë për të filluar diçka, për të bërë progres drejt qëllimeve tuaja ose për të ndryshuar rutinën tuaj. Trajnerët tanë të certifikuar sigurojnë që ju të ndjeheni të motivuar, të mësoni formën adekuate dhe të bëni qejf.",
+    "firstSubtitle": "Shto Peshe",
+    "secondSubtitle": "Humb Peshe",
+    "thirdSubtitle": "Def Muskulor",
+    "firstDescription":"Shtimi i peshës mund të shkaktohet nga gjëra të ndryshme, ndër to shtimi i muskujve. Ushtrime të caktuara që fokusohen në ndërtimin e muskujve do të ju ndihmojnë të fitoni peshë.",
+    "secondDescription": "Humbja e peshës nuk është e lehtë dhe kërkon angazhim. Por nëse ju jeni gati të filloni, ne kemi një program hap pas hapi, për të ju ndihmuar në rrugen drejt humbjes së peshës e shëndetit të mirë.",
+    "thirdDescription": "Nëse qëllimi juaj është në muskuj më të definuar, çfarë do të ju dërgojë atje është të qenurit vigjilent për qëllime tuaja, duke i bërë ushtrimet e duhura, ngrënë drejt e ofruar trupit ato që i nevojiten. "
+  },
+  "Trainers":{
+    "title":"EKIPI",
+    "subTitle":"Të Certifikuarit Tanë ", 
+    "secsubTitle":"Trajnerë ",
+    "thirdsubTitle": "Për Ju",
+    "description":"Një trajner fitnesi krijon plane fitnesi dhe mirëqenieje për individë dhe grupe. Ata caktojnë rutinat e ushtrimeve bazuar në nevojat fizike të klientëve dhe monitorojnë përparimin e tyre."
+  }
 }
 }
