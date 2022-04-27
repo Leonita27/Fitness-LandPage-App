@@ -1,0 +1,52 @@
+@import "../../../theme/Fonts.scss";
+@import "../../../theme/Colors.scss";
+.TrainersContainer{
+    width:'100%';
+    height: 1250px;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+}
+
+.TrainersText{
+    width:100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titleText{
+    font-size: 16px;
+    font-family: 'Poppins Bold';
+    color: $yellow2;
+    line-height:0
+}
+.subtitleText{
+    font-size: 30px;
+    font-family: 'Poppins Semibold';
+    color: $black;
+    line-height:1;
+    .trainersTitle{
+        color: $yellow2;
+    }  
+}
+
+.descriptionText{
+    font-size: 13px;
+    font-family: 'Poppins Regular';
+    color: $grey2;
+    width: 600px;
+    text-align: center;
+    margin-top: 0;
+    line-height: 2;
+}
+.secondTrainersContainer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}

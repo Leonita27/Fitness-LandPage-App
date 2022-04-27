@@ -5,6 +5,7 @@ import "./LandingPageStyle.scss"
 import OurClasses from "./OurClasses/OurClasses"
 import Header from "../../components/Header"
 import Overview from "./Overview/Overview"
+import Trainers from "./Trainers/Trainers"
 
 const LandingPage = () => {
   const [headerVisible, setHeaderVisible] = useState(true)
@@ -30,6 +31,7 @@ const LandingPage = () => {
       <Overview />
       <AboutUs />
       <OurClasses />
+      <Trainers />
     </div>
   )
 }
