@@ -1,0 +1,68 @@
+@import "../../theme/Fonts.scss";
+@import "../../theme/Colors.scss";
+
+
+.fullcontainer {
+    width: 375px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px -3px rgba(100, 100, 100, 0.77);
+    border-radius: 20px;
+}
+
+.upperContainer {
+    width: 375px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px 20px 0px 0px;
+    background-color: $yellow2;
+}
+
+.bottomContainer {
+    width: 375px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.firsttitle {
+    font-size: 22px;
+    font-family: 'Poppins Light';
+    color: $white;
+    line-height: 0;
+    margin-top: -30px;
+}
+
+.firstsubTitle {
+    font-size: 16px;
+    font-family: 'Poppins Italic';
+    color: $white;
+    line-height: 2
+}
+
+.firstcircleBox {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    position: absolute;
+    border: double;
+    border-color: white;
+}
+
+.firstdescription {
+    font-size: 13px;
+    font-family: 'Poppins Light';
+    color: $grey2;
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+}
