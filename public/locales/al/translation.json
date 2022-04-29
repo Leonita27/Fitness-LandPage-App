@@ -25,7 +25,18 @@
     "title":"RRETH NESH",
     "subTitle":"Kush Ju Ndihmon",
     "subTitleDetails":"Që Të Jeni Në Formë",
-    "description":"Ne jemi një zinxhir fitnesi i drejtuar nga pasioni, duke ofruar produkte në modë, dieta, ushtrime dhe mjedis miqësor, sepse besojmë se do t'i bëjmë njerëzit të lëvizin çdo detaj."
+    "description":"Ne jemi një zinxhir fitnesi i drejtuar nga pasioni, duke ofruar produkte në modë, dieta, ushtrime dhe mjedis miqësor, sepse besojmë se do t'i bëjmë njerëzit të lëvizin çdo detaj.",
+    "Cards":{
+      "firstTopTitle":"Produktet Tona",
+      "firstTitle":"Produktet",
+      "firstDescription":"Ne ofrojmë produkte të ndryshme, për humbje peshe, shtim në peshë dhe çfarë është më e rëndësishme për të bërë një trup në formë..",
+      "secTopTitle":"Dietat Tona",
+      "secTitle":"Dietat",
+      "secDescription":"Lloje të ndryshme dietash janë pjesë e historive të suksesit të klientëve tanë. Pra, ne ofrojmë dietat më të reja në linjë dhe sigurisht ato ekskluzive.",
+      "thirdTopTitle":"Ushtrimet Tona",
+      "thirdTitle":"Ushtrimet",
+      "thirdDescription":"Ne ofrojmë pajisje të modës, mjedis miqësor dhe ushtrime më të mira, sepse besojmë se i bëjmë njerëzit të lëvizin çdo detaj."
+      }
   },
   "OurClasses":{
     "title": "Klasat tona",

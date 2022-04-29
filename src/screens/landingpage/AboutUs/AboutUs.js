@@ -3,7 +3,9 @@ import AboutUsCard from "../../../components/AboutUsCard"
 import "./AboutUsStyle.scss"
 import AboutUsDetail from "../../../assets/images/landpage/AboutUsDetails.png"
 import { useTranslation } from "react-i18next"
-
+import Exercise from "../../../assets/images/landpage/exercise.png"
+import Diets from "../../../assets/images/landpage/diets.png"
+import Products from "../../../assets/images/landpage/protein.png"
 const AboutUs = () => {
   const { t } = useTranslation()
   return (
@@ -25,25 +27,22 @@ const AboutUs = () => {
         </div>
         <div className="cardsContainer">
           <AboutUsCard
-            subTitle={"Etiem Diam"}
-            title={"Products"}
-            description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam dignissim rhoncus, faucibus vestibulum semper eget pretium purus."
-            }
+            subTitle={t("LandingPage.AboutUs.Cards.firstTopTitle")}
+            title={t("LandingPage.AboutUs.Cards.firstTitle")}
+            description={t("LandingPage.AboutUs.Cards.firstDescription")}
+            icon={<img src={Products} width={"50%"} height={"50%"} alt="" />}
           />
           <AboutUsCard
-            subTitle={"Etiem Diam"}
-            title={"Diets"}
-            description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam dignissim rhoncus, faucibus vestibulum semper eget pretium purus."
-            }
+            subTitle={t("LandingPage.AboutUs.Cards.secTopTitle")}
+            title={t("LandingPage.AboutUs.Cards.secTitle")}
+            description={t("LandingPage.AboutUs.Cards.secDescription")}
+            icon={<img src={Diets} width={"50%"} height={"50%"} alt="" />}
           />
           <AboutUsCard
-            subTitle={"Etiem Diam"}
-            title={"Exercise"}
-            description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam dignissim rhoncus, faucibus vestibulum semper eget pretium purus."
-            }
+            subTitle={t("LandingPage.AboutUs.Cards.thirdTopTitle")}
+            title={t("LandingPage.AboutUs.Cards.thirdTitle")}
+            description={t("LandingPage.AboutUs.Cards.thirdDescription")}
+            icon={<img src={Exercise} width={"50%"} height={"50%"} alt="" />}
           />
         </div>
       </div>

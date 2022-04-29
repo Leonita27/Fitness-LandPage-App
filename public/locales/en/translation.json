@@ -25,7 +25,18 @@
       "title":"ABOUT US",
       "subTitle":"Who Help You",
       "subTitleDetails":"To Be Fit",
-      "description":"We are a passion driven fitness chain, offering trendy products,diets,exercises and friendly environment because we believe to make people move every detail matters.."
+      "description":"We are a passion driven fitness chain, offering trendy products,diets,exercises and friendly environment because we believe to make people move every detail matters..",
+      "Cards":{
+      "firstTopTitle":"Our Product",
+      "firstTitle":"Products",
+      "firstDescription":"We offer different kind of products,for weight loss,weight gain and what is more important products to make a fit body.",
+      "secTopTitle":"Our Diets",
+      "secTitle":"Diets",
+      "secDescription":"Different kind of diets are part of our clients success stories.So,we offer the newest diets on the line and exclusive ones of course.",
+      "thirdTopTitle":"Exercises",
+      "thirdTitle":"Exercises",
+      "thirdDescription":"We offer trendy equipment, friendly environment and best exercise because we believe to make people move every detail matters."
+      }
   
     
   },
