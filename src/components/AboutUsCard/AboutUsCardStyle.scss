@@ -12,6 +12,17 @@
     box-shadow: 5px -6px 18px -3px rgba(100,100,100,0.77);
 }
 
+.container:hover{
+    width: 360px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px -6px 18px -3px rgba(100,100,100,0.77);
+    background-color: rgba(255, 248, 229, 0.972)
+}
+
 .circleBox{
     width: 70px;
     height: 70px;
@@ -22,6 +33,7 @@
     align-items: center;
 
 }
+
 .subTitle{
     font-size: 16px;
     font-family: 'Poppins Light';
